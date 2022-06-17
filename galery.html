@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galery</title>
+    <section>
+        <!--- navigation --->
+        <nav>
+            <!--- logo --->
+            <a href="index.html" class="logo">As'WEB</a>
+            <!--- menu --->
+            <ul>
+                <li><a href="index.html" class="index.html">Home</a></li>
+                <li><a href="ho.html" class="ho.html">Hobi dan Kesukaan</a></li>
+                <li><a href="grafi.html" class="grafi.html">Biografis</li></a>
+                <li><a href="t.html" class="t.html">Contact</li></a>
+         </ul>
+        </nav>
+    <style>
+        body {
+            width: 100%;
+            margin: 20px auto;
+            border: 2px solid black;
+        }
+        img {
+            border: 4px solid #575D63;
+            margin: 40px;
+            padding: 30px;
+            width: 300px;
+            height: 500px;
+        }
+        input {
+            width: 130px;
+            height: 42px;
+            border-radius: 10px;
+            font-family: calibri;
+            font-weight: bold;
+            font-size: 14px;
+            outline: none;
+            margin: 20px 620px;
+        }
+        
+/* CSS Document*/
+body{
+    background-color:#ffffff;
+    margin:0px;
+    padding:0px;
+}
+ 
+ul{
+    list-style:none;
+}
+ 
+a{
+    text-decoration:none;
+}
+ 
+section{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color:#FFFFFF;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+     
+}
+nav ul{
+    display: flex;
+}
+  
+nav ul li a{
+    margin:30px;
+    font-family:myriad pro regular;
+    color:#505050;
+    font-size: 15px;
+    font-weight:700;
+}
+@media screen and (max-width: 800px){
+    nav{
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav>ul>a {
+        float: none;
+        display: block;
+    }
+    
+}
+ 
+.logo{
+    font-family:RoadTest;
+    color:#000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+ 
+.active{
+    color:#2d2a2a;
+    font-weight:bold;
+}
+
+</style> 
+</head>
+<body>   
+    <img src="galery/7.jpg"><img src="galery/8.jpg"><img src="galery/9.jpg"><img src="galery/10.jpg"><img src="galery/11.jpg"><img src="galery/12.jpg">
+    <img src="galeri/6.jpg"><img src="galeri/5.jpg"><img src="galeri/1.jpg"><img src="galeri/2_584.jpg"><img src="galeri/3.jpg"><img src="galeri/4.jpg">
+    <input type="button" value="Back" onclick="window.scrollTo({top: 0})"/>
+</body>
+</html>
